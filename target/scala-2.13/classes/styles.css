@@ -1,0 +1,65 @@
+.vbox-form {
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-pref-height: 30px;
+    -fx-pref-width: 200px;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 10px 15px;
+}
+
+.square-button {
+    -fx-font-size: 16px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 15px 20px;
+    -fx-border-radius: 0;
+    -fx-cursor: hand;
+    -fx-margin: 5px; /* Add margin */
+    -fx-min-width: 120px; /* Set a minimum width */
+}
+
+.square-button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+    -fx-cursor: hand;
+}
+
+/* Additional styling for the form buttons */
+.form-button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+    -fx-cursor: hand;
+}
+
+/* Styling for the product creation form */
+.form-root {
+    -fx-background-color: #f9f9f9; /* Light gray background */
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+}
+
+.form-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+.form-text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-pref-height: 30px;
+    -fx-pref-width: 200px;
+    -fx-margin: 5px; /* Add margin */
+}
